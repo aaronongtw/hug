@@ -1,0 +1,35 @@
+table {
+  position: fixed;
+  border: 2px solid black;
+}
+
+table, tr, td {
+  border-collapse: collapse;
+  box-sizing: border-box;
+}
+
+tr, td {
+
+  border:none;
+  width:40px;
+  height:40px;
+}
+
+
+
+.bear {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-image: url('http://www.imagesbuddy.com/images/132/2014/01/i-love-you-happy-teddy-bear-day.jpg');
+  background-size: contain;
+}
+
+.complete {
+  position: absolute
+}
+
+#screen {
+  position: absolute;
+}
+
